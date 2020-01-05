@@ -5,7 +5,7 @@ import java.util.function.Predicate;
 
 public class FunctionDemo {
 	public static void main(String[] args) {
-		Function<String,Integer> lengthChecker = (str) -> {return str.length();};
+		Function<String,Integer> lengthChecker = (str) -> str.length();
 		String input = "Hello World";
 		System.out.println("Length of "+input+" is "+lengthChecker.apply(input) );
 		input = "Test";
